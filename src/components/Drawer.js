@@ -54,9 +54,6 @@ function Drawer({ onCloseCart, onDelete, items = []}) {
                     </button>
                 </div>
             }
-
-
-
         </div>
         </div>
 
