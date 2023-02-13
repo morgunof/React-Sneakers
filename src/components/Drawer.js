@@ -24,11 +24,12 @@ function Drawer({ onCloseCart, onDelete, items = [] }) {
 
             for (let i = 0; i < cartItems.length; i++) {
                 const item = cartItems[i]
-                await axios.delete('https://63dc383ab8e69785e493dd3d.mockapi.io/cart' + item.id)
+                await axios.delete('https://63dc383ab8e69785e493dd3d.mockapi.io/cart' + item.id) //+ item.id
                 await delay(1000)
             }
            } catch (error) {
             alert("Нам не удалось создать заказ(")
+            console.log(error)
         }
         setIsLoading(false)
     }
