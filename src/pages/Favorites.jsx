@@ -18,7 +18,7 @@ function Favorites() {
                             favorited={true}
                             onClickFavorite={onAddToFavorite}
                             {...item}
-                            // onClickPlus={(obj) => onAddToCart(obj)}
+                            //onClickPlus={(obj) => onAddToCart(obj)}
                             // onClickFavorite={(obj) => onAddToFavorite(obj)}
                         />
                     ))}

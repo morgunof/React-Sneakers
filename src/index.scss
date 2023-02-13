@@ -2,7 +2,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   margin: 0;
-  background-color: #e7f6ff;
+  background-color: #81d8f7;
 }
 
 * {
@@ -82,45 +82,6 @@ header {
     padding: 13px;
     font-size: 16px;
     width: 200px;
-  }
-}
-
-.overlay {
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  left: 0;
-  top: 0;
-  background-color: rgba(0,0,0,0.1);
-  z-index: 1;
-}
-
-
-.drawer {
-  display: flex;
-  flex-direction: column;
-  position: absolute;
-  width: 420px;
-  right: 0;
-  height: 100%;
-  background: #FFFFFF;
-  box-shadow: -10px 4px 24px rgba(0, 0, 0, 0.1);
-  padding: 30px;
-
-
-  .items {
-    overflow: auto;
-    margin-bottom: 40px;
-    flex: 1;
-  }
-
-
-  h2 {
-    margin: 0;
-    font-size: 24px;
-    img {
-      cursor: pointer;
-    }
   }
 }
 

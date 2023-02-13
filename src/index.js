@@ -1,11 +1,12 @@
-import React from 'react';
-import {BrowserRouter} from 'react-router-dom';
-import ReactDOM from 'react-dom/client';
+import React from "react";
+import {BrowserRouter} from "react-router-dom";
+import App from "./App";
 
-import './index.scss'; //css->scss
-import 'macro-css'
+import ReactDOM from "react-dom/client";
 
-import App from './App';
+import "./index.scss";
+import "macro-css";
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
